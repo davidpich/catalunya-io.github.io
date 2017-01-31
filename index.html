@@ -13,8 +13,40 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+		<meta property="og:url" content="http://catalunya.io" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Associacions, entitats i organitzacions tecnològiques de la República Catalana" />
+		<meta property="og:description" content="Unió d’associacions, entitats i organitzacions relacionades amb l’open source a Catalunya amb l'objectiu d'escriure entre tots el que representa l’open source a les nostres vides i com aquest és fundamental en una república com Catalunya." />
+		<meta property="og:image" content="http://catalunya.io/images/logo.png" />
 	</head>
 	<body>
+
+		<script>window.twttr = (function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0],
+			t = window.twttr || {};
+		  if (d.getElementById(id)) return t;
+		  js = d.createElement(s);
+		  js.id = id;
+		  js.src = "https://platform.twitter.com/widgets.js";
+		  fjs.parentNode.insertBefore(js, fjs);
+
+		  t._e = [];
+		  t.ready = function(f) {
+			t._e.push(f);
+		  };
+
+		  return t;
+		}(document, "script", "twitter-wjs"));</script>
+
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/ca_ES/sdk.js#xfbml=1&version=v2.8&appId=1495970073776405";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -53,7 +85,7 @@
 								</div>
 
 								<header class="major">
-									<h3>Què volem fer?</h3>
+									<h3><b>Què</b> volem fer?</h3>
 								</header>
 
 								<div class="align-left">
@@ -63,7 +95,7 @@
 								</div>
 
 								<header class="major">
-									<h3>Com ho farem?</h3>
+									<h3><b>Com</b> ho farem?</h3>
 								</header>
 
 								<div class="align-left">
@@ -81,11 +113,38 @@
 								</header>
 
 								<div class="align-left">
-									<p>Molt senzill. Per ara pots fer difusió d’aquest post. Com més gent hi hagi assabentada d’aquesta iniciativa, més impacte podrem tenir i a més comunitats arribarem.<br>
+									<p>Molt senzill.<br>
+										Per ara pots fer difusió d’aquest post. Com més gent hi hagi assabentada d’aquesta iniciativa, més impacte podrem tenir i a més comunitats arribarem.<br>
 										Si pertanys a una comunitat i vols que aquesta s'addereixi, posa't en contacte amb ella i fes arribar el nostre missatge.<br>
 										Comparteix aquesta pàgina per twitter, per facebook i per coloms missatgers, i fes-nos arribar a tots els raconets del nostre pais :)</p>
 									<p>A seguir treballant, companys, que el camí està ple de pedres, però estem molt ben calçats!</p>
 								</div>
+
+								<ul class="icons">
+									<li>
+										<a
+												href="https://twitter.com/intent/tweet"
+												class="icon fa-twitter alt twitter-share-button"
+												data-url="http://catalunya.io"
+												data-text="Associacions, entitats i organitzacions tecnològiques de la República Catalana. Uneix-te!"
+												data-hashtags="catalunyaIO,FOS"
+												data-dnt="false"
+												data-size="large"
+												data-lang="ca">
+											</a>
+									</li>
+									<li>
+										<div
+												class="fb-share-button"
+												data-href="http://catalunya.io"
+												data-layout="button_count"
+												data-size="small"
+												data-mobile-iframe="false"
+										>
+											<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcatalunya.io%2F&amp;src=sdkpreparse">Comparteix</a>
+										</div>
+									</li>
+								</ul>
 
 							</section>
 
